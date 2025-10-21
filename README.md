@@ -1,14 +1,9 @@
 # CNN Cat vs No Cat (Keras)
+## Autor
+- Luis Adrian Abarca Gomez — A01798043
 
+  
 **Propósito:** Aplicar una red neuronal convolutiva al procesamiento de imágenes para clasificar *cat* vs *no cat*.
-
-## Dataset
-Usa el dataset del profesor: `adsoftsito/ncats`. Clona el repo dentro de `data/` así:
-```bash
-cd data
-git clone https://github.com/adsoftsito/ncats.git
-cd ..
-```
 
 ## Reproducibilidad
 ```bash
@@ -37,9 +32,8 @@ python predict.py
 - `outputs/predictions/{cat,nocat}/`
 
 ## Resultados
-- Accuracy (test): _(pega aquí el valor impreso en consola)_
-- Evidencia: agrega screenshots de la carpeta de predicciones.
+{'test_loss': 0.47520387172698975, 'test_acc': 0.8799999952316284}
 
-## Autor
-- Tu nombre — Matrícula
-- Curso / Profesor
+
+
+  
