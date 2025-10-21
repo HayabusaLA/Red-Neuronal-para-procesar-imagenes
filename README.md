@@ -32,7 +32,18 @@ python predict.py
 - `outputs/predictions/{cat,nocat}/`
 
 ## Resultados
-{'test_loss': 0.47520387172698975, 'test_acc': 0.8799999952316284}
+Test Accuracy: 0.88
+Test Loss: 0.47
+Épocas: 15
+Optimizer: Adam (lr = 0.001)
+Loss Function: Sparse Categorical Crossentropy
+Dataset usado: ncats (cat vs nocat)
+
+El modelo final se guardó en:
+outputs/models/catvsnocat.keras
+
+El historial de métricas se guardó en:
+outputs/history/history.json
 
 
 
