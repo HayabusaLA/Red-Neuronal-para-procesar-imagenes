@@ -32,6 +32,7 @@ python predict.py
 - `outputs/predictions/{cat,nocat}/`
 
 ## Resultados
+```bash
 Test Accuracy: 0.88
 Test Loss: 0.47
 Épocas: 15
@@ -44,7 +45,7 @@ outputs/models/catvsnocat.keras
 
 El historial de métricas se guardó en:
 outputs/history/history.json
-
+```
 
 
   
